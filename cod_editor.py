@@ -293,6 +293,16 @@ def editor(path_file):
                     imd_path = execution_path + '/images/ris_7_52.jpg'
                     st.image(imd_path)
 
+            elif path_file == 'pages/glava_8/Listing_8_1_st.py':
+                # Каталог главы
+                execution_path = execution_path + '/pages/glava_8'
+                tab_1, tab_2 = st.tabs(['Исходное изображение', 'Обработанное изображение'])
+                with tab_1:
+                    imd_path = execution_path + '/images/Test_Face.jpg'
+                    st.image(imd_path)
+                with tab_2:
+                    imd_path = execution_path + '/images/Test_Face_det.jpg'
+                    st.image(imd_path)
             elif path_file == 'pages/glava_8/Listing_8_2_st.py':
                 st.write('Для данного модуля необходима подключенная камера.')
                 st.write('При работе в сети Github данный модуль заблокирован.')
