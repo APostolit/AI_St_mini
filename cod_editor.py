@@ -334,6 +334,17 @@ def editor(path_file):
                 with tab_2:
                     imd_path = execution_path + '/images/smile_det.jpg'
                     st.image(imd_path)
+                    
+            elif path_file == 'pages/glava_8/Listing_8_5_st.py':
+                # Каталог главы
+                execution_path = execution_path + '/pages/glava_8'
+                tab_1, tab_2 = st.tabs(['Исходное изображение', 'Обработанное изображение'])
+                with tab_1:
+                    imd_path = execution_path + '/images/Test_Numer.jpg'
+                    st.image(imd_path)
+                with tab_2:
+                    imd_path = execution_path + '/images/Test_Numer_det.jpg'
+                    st.image(imd_path)                    
 
             elif path_file == 'pages/glava_8/Listing_8_6_st.py':
                 st.write('Для данного модуля необходима подключенная камера.')
