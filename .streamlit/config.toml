@@ -1,1 +1,14 @@
+[client]
+# Показывать меню в боковой панели
+showSidebarNavigation = true
+# initial_sidebar_state="auto"
 
+[theme]
+primaryColor="#0000FF"
+backgroundColor="#f0f0f5"
+# secondaryBackgroundColor="#e0e0ef"
+secondaryBackgroundColor="#40E0D0"
+textColor="#262730"
+font="sans serif"
+baseFontSize=16
+codeBackgroundColor="#DCDCDC"
