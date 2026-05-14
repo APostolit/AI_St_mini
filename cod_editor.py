@@ -8,7 +8,7 @@ import time
 # import cv2
 # from PIL import Image
 
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 '''
 import torch
