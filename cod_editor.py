@@ -5,7 +5,7 @@ from code_editor import code_editor
 import numpy as np
 import os
 import time
-import cv2
+# import cv2
 # from PIL import Image
 
 import matplotlib.pyplot as plt
