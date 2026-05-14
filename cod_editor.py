@@ -9,7 +9,7 @@ import time
 # from PIL import Image
 
 # import matplotlib.pyplot as plt
-# from matplotlib.colors import ListedColormap
+from matplotlib.colors import ListedColormap
 '''
 import torch
 import torchvision
