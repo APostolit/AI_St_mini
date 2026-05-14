@@ -5,11 +5,11 @@ from code_editor import code_editor
 import numpy as np
 import os
 import time
-import cv2
-from PIL import Image
+# import cv2
+# from PIL import Image
 
 # import matplotlib.pyplot as plt
-from matplotlib.colors import ListedColormap
+# from matplotlib.colors import ListedColormap
 '''
 import torch
 import torchvision
