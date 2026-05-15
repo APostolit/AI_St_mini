@@ -396,6 +396,17 @@ def editor(path_file):
                 execution_path = execution_path + '/pages/glava_8'
                 imd_path = execution_path + '/images/ris_8_34.jpg'
                 st.image(imd_path)
+                
+            elif path_file == 'pages/glava_8/Listing_8_10_st.py':
+                # Каталог главы
+                execution_path = execution_path + '/pages/glava_8'
+                tab_1, tab_2 = st.tabs(['Исходное изображение', 'Обработанное изображение'])
+                with tab_1:
+                    imd_path = execution_path + '/images/ris_8_20.jpg'
+                    st.image(imd_path)
+                with tab_2:
+                    imd_path = execution_path + '/images/ris_8_21.jpg'
+                    st.image(imd_path)                                
 
             elif path_file == 'pages/glava_8/Listing_8_15_st.py':
                 with st.spinner(text="Ждите, идет обучение модели...", show_time=True):
