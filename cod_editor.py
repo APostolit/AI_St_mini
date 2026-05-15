@@ -363,6 +363,30 @@ def editor(path_file):
                 execution_path = execution_path + '/pages/glava_8'
                 imd_path = execution_path + '/images/ris_8_13.jpg'
                 st.image(imd_path)
+                
+            elif path_file == 'pages/glava_8/Listing_8_9_st.py':
+                execution_path = execution_path + '/pages/glava_8'
+                t1, t2, t3, t4, t5, t6 = st.tabs(['Изображение', 'Все тело',
+                                                  'Верх тела', 'Низ тела',
+                                                  'Правый глаз', 'Левый глаз'])
+                with t1:
+                    imd_path = execution_path + '/images/Test4.jpg'
+                    st.image(imd_path)
+                with t2:
+                    imd_path = execution_path + '/images/ris_8_16.jpg'
+                    st.image(imd_path)
+                with t3:
+                    imd_path = execution_path + '/images/ris_8_17.jpg'
+                    st.image(imd_path)
+                with t4:
+                    imd_path = execution_path + '/images/ris_8_18.jpg'
+                    st.image(imd_path)
+                with t5:
+                    imd_path = execution_path + '/images/ris_8_19.jpg'
+                    st.image(imd_path)
+                with t6:
+                    imd_path = execution_path + '/images/ris_8_19_1.jpg'
+                    st.image(imd_path)                
 
             elif path_file == 'pages/glava_8/Listing_8_14_st.py':
                 st.write('Для данного модуля необходима подключенная камера.')
