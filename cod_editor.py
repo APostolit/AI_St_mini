@@ -408,8 +408,7 @@ def editor(path_file):
                     st.video(imd_path)
                 with tab_2:
                     imd_path = execution_path + '/video/Person_h256.mp4'
-                    st.video(imd_path)
-                    
+                    st.video(imd_path)                    
 
             elif path_file == 'pages/glava_8/Listing_8_14_st.py':
                 st.write('Для данного модуля необходима подключенная камера.')
