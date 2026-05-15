@@ -370,7 +370,7 @@ def editor(path_file):
                                                   'Верх тела', 'Низ тела',
                                                   'Правый глаз', 'Левый глаз'])
                 with t1:
-                    imd_path = execution_path + '/images/Test4.jpg'
+                    imd_path = execution_path + '/images/ris_8_15.jpg'
                     st.image(imd_path)
                 with t2:
                     imd_path = execution_path + '/images/ris_8_16.jpg'
