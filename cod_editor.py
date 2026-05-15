@@ -413,8 +413,15 @@ def editor(path_file):
             elif path_file == 'pages/glava_8/Listing_8_12_st.py':
                 with st.spinner(text="Ждите, идет обучение модели...", show_time=True):
                     time.sleep(5)
-                st.write('Процесс обучения модели завершен')   
-
+                st.write('Процесс обучения модели завершен')
+                
+            elif path_file == 'pages/glava_8/Listing_8_13_st.py':
+                with st.spinner(text="Ждите, идет Обработка фото...", show_time=True):
+                    time.sleep(5)
+                st.write('Примеры распознанных лиц на фото')
+                execution_path = execution_path + '/pages/glava_8'
+                imd_path = execution_path + '/images/ris_8_32.jpg'
+                st.image(imd_path)
             elif path_file == 'pages/glava_8/Listing_8_14_st.py':
                 st.write('Для данного модуля необходима подключенная камера.')
                 st.write('При работе в сети Github данный модуль заблокирован.')
